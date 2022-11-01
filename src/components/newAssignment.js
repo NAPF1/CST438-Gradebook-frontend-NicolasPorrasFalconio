@@ -73,7 +73,7 @@ class newAssignment extends React.Component {
                     <label>Course Id: </label>
                     <input type="text"  name="courseId" value={this.state.courseId} onChange={this.handleChange}></input>
                     <br></br><br></br>
-                    <input type='submit' value='Submit'></input>
+                    <input type='submit' name="submit" value='Submit'></input>
                 </form>
                 <ToastContainer autoClose={1500} />   
             </div>
